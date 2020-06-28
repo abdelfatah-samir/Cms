@@ -1,0 +1,35 @@
+{
+    "name": "abdelfatah-samir/cms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdelfatah Samir",
+            "email": "abdelfatah.samir@msn.com"
+        }
+    ],
+    "minimum-stability": "stable",
+        "require": {
+        "ahmed-aliraqi/laravel-media-uploader": "^1.0"
+    },
+    "require-dev": {
+       
+    },
+	  "autoload": {
+        "psr-4": {
+            "AbdelfatahSamir\\Cms\\": "src/"
+        }
+    },
+	"autoload-dev": {
+        "psr-4": {
+            
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AbdelfatahSamir\\Cms\\CmsServiceProvider"
+            ]
+        }
+    }
+}
